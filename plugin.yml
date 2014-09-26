@@ -1,7 +1,7 @@
 name: TrippyTime
 version: 1.0
 api: [1.0.0]
-author: [mightysun99
+author: [mightysun99]
 description: N/A
 main: mightysun99\TrippyTime\Main
 load: POSTWORLD
