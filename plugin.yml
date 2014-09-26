@@ -6,3 +6,15 @@ description: N/A
 main: mightysun99\TrippyTime\Main
 load: POSTWORLD
 website: N/A
+commands:
+    enabletrippytime:
+      description: Enables Trippy Time
+      usage: "Usage: /enabletrippytime"
+permissions:
+    enabletrippytime:
+        default: false
+        description: Permission to do command
+        children:
+            trippytime.command:
+              default: false
+              description: Switches the server into random time intervals 
