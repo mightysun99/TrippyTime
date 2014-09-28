@@ -10,12 +10,17 @@ class Main extends PluginBase{ //class
 
     public function onEnable(){  //function when plugin enable
         $this->getLogger()->info("TrippyTime has been enabled."); //sends message
-    } 
+    } //end function
     
     public function onDisable(){ //function when plugin disable
         $this->getLogger()->info("TrippyTime has been disabled."); //sends message
-    }
+    } //end function
     
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){ //adds a functions
       case "TrippyTime": //adds the command line
+        #add Main code here
+        #add Main code here
+        #add Main code here
+    } //end function
+            break; //ends execution
         
