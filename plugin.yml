@@ -1,17 +1,17 @@
 name: TrippyTime
 version: 1.0
 api: [1.0.0]
-author: [mightysun99]
+author: [mightysun99 & MegaSamNinja]
 description: N/A
 main: mightysun99\TrippyTime\Main
 load: POSTWORLD
 website: N/A
 commands:
-    enabletrippytime:
+    trippytime:
       description: Enables Trippy Time
       usage: "Usage: /enabletrippytime"
 permissions:
-    enabletrippytime:
+    trippytime:
         default: false
         description: Permission to do command
         children:
